@@ -1,0 +1,212 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.centered {
+	text-align: center
+}
+
+.mt {
+	margin-top: 80px;
+}
+
+.mb {
+	margin-bottom: 80px;
+}
+
+html, body {
+	display: flex;
+  	flex-direction: column;
+	height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h4, h5, h6 {
+	font-weight: 700;
+    color: #4a4a4a;
+}
+
+h3 {
+	font-weight: 700;
+    color: #ff0077;	
+}
+
+.containeri {
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	box-shadow: 0 8px 6px -6px black;
+}
+
+.container {
+	width: 100%;
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: 700;
+}
+
+.navbar-default .navbar-brand {
+	color: #18faf3;
+}
+
+.navbar-default {
+    width: 100%;
+	background-color: transparent;
+	border: 0px dashed black;
+	color: rgba(255, 0, 0, 0.5);
+    background-color:rgba(0, 0, 0, 0.32);
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #1abc9c;
+	background-color: transparent;
+	border-bottom: 2px solid #1c2523 
+	background: rgb(96, 96, 96); /* Fall-back for browsers that don't support rgba */
+    background: rgba(96, 96, 96, .5);
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+}
+
+.fill { 
+	width:100%;
+	background-position: center;
+	background-size:cover;
+}
+
+#headerwrap {
+	background: url(../img/index.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 140px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 350px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	letter-spacing: 4px;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 2px 2px #000000;
+}
+
+#headerwrap h4 {
+	font-weight: 400;
+	color: #f1f1f1
+}
+
+.jalka i {
+	font-size: 30px;
+	color: #5dd5d5;
+}
+
+.jalka i:hover {
+	color: #1f7a7a;
+}
+
+#footerwrap {
+
+	margin: bottom;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #2f2f2f;
+}
+
+#footerwrap p {
+	color: #f2f2f2;
+}
+
+#keskitetty {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;"
+}
+
+.pyorea_kuva {
+    border-radius: 50%;
+    width: 80%;
+    height: auto;
+    border: solid #545454 1px;
+}
+
+#taulukko {
+	margin: auto;
+	border: 1px;
+	width: 600px;
+	text-align: left;
+	background-color: #fbfefe;
+}
+
+td {
+	padding: 10px;
+}
+
+.ikonit {
+	text-decoration: none;
+	color: #3b3b3b;
+	text-shadow: 1px 1px 1px #ccc;
+	font-size: 1.5em;
+}
+
+input[type=button] {
+    padding:5px 15px; 
+    background: #e7fffb; 
+    border:1px dashed #dcdcdc;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+input[type=submit] {
+    padding:5px 15px; 
+    background: #e7fffb; 
+    border:1px dashed #dcdcdc;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
