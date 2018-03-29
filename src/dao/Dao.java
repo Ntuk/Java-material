@@ -21,7 +21,7 @@ public class Dao {
     	String url = "jdbc:mariadb://localhost:15001/a1702576";        	
     	try {
 	         Class.forName(JDBCAjuri);
-	         con = DriverManager.getConnection(url,"a1702576", "foJY8434h");	    
+	         con = DriverManager.getConnection(url,"a1702576", "xxx");	    
 	     }catch (Exception e){	         
 	        e.printStackTrace();	         
 	     }
